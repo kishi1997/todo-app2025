@@ -1,3 +1,29 @@
+<!-- クローンしてきたリポジトリを元に、新しいリポジトリを作成する手順 -->
+
+## 手順 1: リポジトリをクローン
+
+```sh
+git clone https://github.com/kishi1997/Nextjs-starter-template.git プロジェクト名
+```
+
+## 新しいGitリポジトリとして初期化
+
+```sh
+rm -rf .git
+git init
+```
+
+## 手順 3: 新しいリポジトリにコミット
+
+```sh
+git add .
+git commit -m "Initial commit"
+```
+
+## 手順 4: 新しいリモートリポジトリを作成
+
+cursorメニューから新規リモートリポジトリを作成
+
 <!-- Docker Compose を使ったセットアップ -->
 
 ## Docker Compose でアプリケーションを起動
